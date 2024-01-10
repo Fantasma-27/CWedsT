@@ -1,3 +1,6 @@
+<?php
+ session start();
+ ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -51,11 +54,11 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-2">
-						<div id="fh5co-logo"><a href="index.html">C&amp;T</a></div>
+						<div id="fh5co-logo"><a href="index.php">C&amp;T</a></div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
-							<li class="active"><a href="index.html">Main</a></li>
+							<li class="active"><a href="index.php">Main</a></li>
 							<li><a href="#fh5co-couple-story">Registry</a></li>
 							<li><a href="#fh5co-event">Days</a></li>
 							<li><a href="#fh5co-gallery">Moments</a></li>
