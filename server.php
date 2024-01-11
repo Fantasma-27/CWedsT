@@ -1,5 +1,4 @@
 <?php
- session start();
  
 if (isset($_POST['submit'])) {
     unset($_SESSION['err']);
